@@ -12,7 +12,7 @@ ff02::2 ip6-allrouters
 10.0.0.31 compute  mi-1
 203.0.113.31 compute-api
 
-10.0.0.41. block  mi-2
+10.0.0.41. master  mi-2
 
-10.0.0.51 k8-master k8m 
-10.0.0.52 k8-node1 k8n1
+10.0.0.51 node-1  k8m 
+10.0.0.52 node-2  k8n1
